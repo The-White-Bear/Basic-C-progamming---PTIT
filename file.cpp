@@ -9,7 +9,7 @@ typedef struct Student
  
 int main()
 {
-    freopen("input.txt", "r", stdin);
+    freopen("input.txt", "r", stdin);   // use freoopen funtion to open file easily . then you can use scanf and printf or anything else as normal.
     freopen("output.txt", "w", stdout);
     int n;
     scanf("%d", &n);
